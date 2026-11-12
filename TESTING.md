@@ -151,10 +151,10 @@ test page). The instructions name this row as one to check by eye.
 
 ## Install commands
 
-The Claude Code install lines in the README were run against a local archive of this folder with the same layout
-GitHub serves: the single-skill line produced `cited/SKILL.md`, `cited/collect.md` and `cited/scripts/tally.py`; the
-all-skills line produced the five folders. They have not been run against GitHub, because the repository was not
-public at the time of testing.
+The Claude Code install lines in the README were run against GitHub on the day the repository was published: the
+single-skill line produced `cited/SKILL.md`, `cited/collect.md` and `cited/scripts/tally.py`; the all-skills line
+produced the five folders, and a script ran from the installed copy. The five zip links each downloaded a valid zip
+identical to the one in `dist/`.
 
 The scripts were run on Python 3.9 and 3.14 on macOS.
 
